@@ -4,7 +4,13 @@ This very simple mock-version of `copado-git-get` seeks to allow developers loca
 
 Currently the functionality is limited to checking if parameters are correct without actually implementing anything but a `console.log` for each correct command.
 
-Supported:
+## Install
+
+```bash
+npm install -g JoernBerkefeld/copado-git-get-mock
+```
+
+## Supported options
 
 - `"branch name"`
 - `--create "branch name"` or `-c "branch name"`
@@ -12,7 +18,7 @@ Supported:
 - `--depth 100` (replace 100 with shallow cloning depth of your choice)
 - `--verbose` or `-v`
 
-Examples:
+## Examples
 
 ```bash
 copado-git-get develop
