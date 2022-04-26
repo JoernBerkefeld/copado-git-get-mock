@@ -1,0 +1,48 @@
+{
+    "name": "copado-git-get",
+    "version": "1.0.0",
+    "description": "Mock for Copado multi-cloud executable",
+    "author": "Jörn Berkefeld",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JoernBerkefeld/copado-git-get-mock.git"
+    },
+    "homepage": "https://github.com/JoernBerkefeld/copado-git-get-mock#readme",
+    "bugs": {
+        "url": "https://github.com/JoernBerkefeld/copado-git-get-mock/issues",
+        "email": "joern.berkefeld@gmail.com"
+    },
+    "main": "./lib/cli.js",
+    "bin": {
+        "copado-git-get": "./lib/cli.js"
+    },
+    "engines": {
+        "node": ">=14.16"
+    },
+    "scripts": {
+        "docs": "jsdoc2md --files lib/**/*.js > docs/dist/documentation.md",
+        "lint:fix": "eslint --fix lib/**/*.js",
+        "lint": "eslint lib/**/*.js",
+        "upgrade": "npm-check --update",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "simple-git": "3.7.1",
+        "yargs": "17.4.0"
+    },
+    "devDependencies": {
+        "eslint": "8.12.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-plugin-jsdoc": "38.0.8",
+        "eslint-plugin-prettier": "4.0.0",
+        "husky": "7.0.4",
+        "lint-staged": "12.3.7",
+        "npm-check": "5.9.2",
+        "npm-run-all": "4.1.5",
+        "prettier-eslint": "13.0.0"
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx}": ["eslint --fix"]
+    }
+}

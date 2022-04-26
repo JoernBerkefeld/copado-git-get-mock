@@ -1,0 +1,11 @@
+# Integration with Issue Tracker
+#
+# (note that '\' need to be escaped).
+
+[issuetracker "GitHub Pull Request Rule"]
+  regex = "pull request #(\\d+)"
+  url = "https://github.com/JoernBerkefeld/copado-mock/pull/$1"
+
+[issuetracker "GitHub Issue Rule"]
+  regex = "#(\\d+)"
+  url = "https://github.com/JoernBerkefeld/copado-mock/issues/$1"

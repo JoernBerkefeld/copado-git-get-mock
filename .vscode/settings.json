@@ -1,0 +1,61 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.markdownlint": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.nodePath": "node_modules",
+    "files.associations": {
+        "*.ssjs": "javascript"
+    },
+    "files.eol": "\n",
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "javascript.validate.enable": false,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.list.indentationSize": "adaptive",
+    "markdown.extension.toc.levels": "2..6",
+    "markdown.extension.toc.orderedList": false,
+    "markdown.extension.toc.slugifyMode": "github",
+    "markdown.extension.tableFormatter.enabled": false,
+    "sql-formatter.indent": "    ",
+    "sql-formatter.uppercase": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "markdown-toc.orderedList": true,
+    "markdown-toc.insertAnchor": true,
+    "outline.showProperties": false,
+    "outline.showVariables": false,
+    "breadcrumbs.showVariables": false,
+    "breadcrumbs.showProperties": false,
+    "githubIssues.issueBranchTitle": "feature/${issueNumber}-${sanitizedIssueTitle}",
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "New Issues",
+            "query": "no:assignee state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Created By Me",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ]
+}

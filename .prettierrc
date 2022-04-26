@@ -1,0 +1,34 @@
+{
+    "tabWidth": 4,
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "*.ssjs",
+            "options": {
+                "parser": "babel",
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": "*.md",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.sql",
+            "options": {
+                "formatter": "sql-formatter",
+                "language": "tsql",
+                "uppercase": true
+            }
+        }
+    ]
+}
