@@ -14,7 +14,7 @@ Currently the functionality is limited to checking if parameters are correct wit
 ## Install
 
 ```bash
-npm install -g JoernBerkefeld/copado-git-get-mock
+npm install -g copado-git-get-mock
 ```
 
 ## Supported options
