@@ -9,7 +9,13 @@
 
 This very simple mock-version of `copado-git-get` seeks to allow developers local testing without the need of uploading their code to Copado functions online.
 
-Currently the functionality is limited to checking if parameters are correct without actually implementing anything but a `console.log` for each correct command.
+Currently, the functionality is limited to checking if parameters are correct via `console.log` as well as running:
+
+- cd _directory_
+- git fetch orgin _branch name_ (optionally limited by _depth_)
+- git checkout _branch name_ (optionally creates the branch with _-c_)
+
+The [original](original.py) also sets up the git origin itself.
 
 ## Install
 
