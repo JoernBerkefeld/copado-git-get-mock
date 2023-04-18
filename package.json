@@ -24,7 +24,6 @@
         "docs": "jsdoc2md --files lib/**/*.js > docs/dist/documentation.md",
         "lint:fix": "eslint --fix lib/**/*.js",
         "lint": "eslint lib/**/*.js",
-        "upgrade": "npm-check --update",
         "prepare": "husky install"
     },
     "dependencies": {
@@ -34,18 +33,15 @@
     "devDependencies": {
         "eslint": "8.38.0",
         "eslint-config-prettier": "8.8.0",
-        "eslint-plugin-jsdoc": "39.3.6",
+        "eslint-plugin-jsdoc": "43.0.1",
         "eslint-plugin-prettier": "4.2.1",
         "husky": "8.0.1",
         "jsdoc-to-markdown": "8.0.0",
         "lint-staged": "13.2.1",
-        "npm-check": "6.0.1",
         "npm-run-all": "4.1.5",
         "prettier-eslint": "15.0.1"
     },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx}": [
-            "eslint --fix"
-        ]
+        "*.{js,jsx,ts,tsx}": ["eslint --fix"]
     }
 }
