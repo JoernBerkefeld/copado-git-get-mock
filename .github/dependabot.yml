@@ -11,4 +11,4 @@ updates:
           interval: 'weekly'
       target-branch: 'main'
       labels:
-          - 'dependency'
+          - 'dependencies'
