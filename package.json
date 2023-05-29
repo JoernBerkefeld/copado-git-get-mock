@@ -27,7 +27,7 @@
         "prepare": "husky install"
     },
     "dependencies": {
-        "simple-git": "3.17.0",
+        "simple-git": "3.19.0",
         "yargs": "17.6.0"
     },
     "devDependencies": {
